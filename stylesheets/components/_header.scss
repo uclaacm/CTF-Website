@@ -1,0 +1,54 @@
+@import "base/vars";
+
+.header{
+	
+	position: relative;
+	height: $header-h;
+	background-color: $color-bg-light;
+	border-bottom: 1px solid $color-outline;
+
+	.header-item-wrapper{
+
+		position: absolute;
+		display: inline-block;
+		height: 100%;
+
+		&:before{
+			content: '';
+		    display: inline-block;
+		    vertical-align: middle;
+		    height: 100%;
+		}
+
+		& > *{
+			display: inline-block;
+			vertical-align: middle;
+		}
+
+	}
+
+	.header-item-wrapper.menu{
+		padding: 0 $menu-spacing-l;	
+		border-right: 1px solid $color-outline;
+		cursor: pointer;
+
+		.menu-text{
+			margin-left: $menu-spacing-s;
+		}
+	}
+
+	.header-item-wrapper.title{
+		padding: 0 $menu-spacing-s;	
+		text-align: center;
+		width: 100%;
+	}
+
+	.header-item-wrapper.link{
+		right: 0;
+		padding: 0 $menu-spacing-l;	
+		background: $color-primary;
+		color: $color-text-light;
+		cursor: pointer;
+	}
+
+}
