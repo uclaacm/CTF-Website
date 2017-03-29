@@ -1,0 +1,22 @@
+@import "base/vars";
+
+.textbox{
+
+	position: absolute;
+	z-index: 24;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    		transform: translateX(-50%);
+
+	background: $color-bg-light;
+	padding: $spacing-main;
+	width: $textbox-width;
+	box-shadow: $textbox-shadow;
+
+	h3{
+		font-family: $font-header;
+		color: $color-primary;
+	}
+
+
+}
