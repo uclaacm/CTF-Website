@@ -1,7 +1,9 @@
+@import 'mixins/fontface';
+@include fontFace('AmCap','../assets/font/AMCAP_Eternal');
 
 // Colors //
 
-$color-primary		: #6fb9b0;
+$color-primary		: #2fab9c;
 $color-secondary	: #000000;
 $color-accent		: #000000;
 $color-outline		: #eeeeee;
@@ -14,7 +16,20 @@ $color-text-dark	: #000000;
 
 // Typography //
 
+$font-header			: 'AmCap', sans-serif;
 $typography-base-size	: 12px;
+$typography-header		: 250px;
+$typography-header-line : $typography-header - 80;
+$typography-sub			: 15px;
+$sub-l-spacing			: $typography-sub * 1.5;
+
+
+$typography-header-mobile: $typography-header * 0.5;
+$typography-header-line-mobile: $typography-header-line * 0.5;
+
+$typography-sub-mobile: $typography-sub * 0.5;
+$sub-l-spacing-mobile: $sub-l-spacing * 0.5;
+
 
 // Breakpoints //
 
@@ -26,3 +41,13 @@ $bp-mobile		: 700px;
 $header-h		: 70px;
 $menu-spacing-s	: 10px;
 $menu-spacing-l	: 20px;
+
+// Body //
+
+$spacing-main   : 40px;
+
+
+// TextBox //
+
+$textbox-width	: 300px;
+$textbox-shadow : 0 0 20px 3px rgba(0,0,0,0.1);

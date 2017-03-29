@@ -17,28 +17,32 @@ html, body {
     font-family: sans-serif;
   }
   h1, h2 {
-    font-weight: 600;
+    font-weight: 400;
   }
   h3, h4, h5, h6 {
     font-weight: 300;
   }
   h1 {
-    font-size: 3rem;
+    font-size: 6rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   h3 {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
   h4 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
   h5 {
     font-size: 1rem;
   }
   h6 {
     font-size: 0.8rem;
+  }
+
+  p{
+    font-size: 1.5rem;
   }
   small {
     font-size: (2 / 3) + 0em;

@@ -1,0 +1,57 @@
+@import "base/vars";
+
+.splash{
+
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 100vh;
+	width: 100%;
+	padding-top: $header-h;
+
+	#splash-container{
+		width: 100%;
+		height: 100%;
+	}
+
+	.title-text{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+
+		h1{
+			//text-transform: uppercase;
+		    font-family: $font-header;
+		    font-size: $typography-header;
+		    line-height: $typography-header-line;
+		    color: $color-text-dark;
+		}
+
+		h4{
+			font-size: $typography-sub;
+			letter-spacing: $sub-l-spacing;
+		}
+	}
+
+}
+
+@media only screen and (max-width: $bp-mobile){
+    
+	.title-text{
+
+		h1{
+			font-size: $typography-header-mobile !important;
+			line-height: $typography-header-line-mobile !important;
+		}
+
+		h4{
+			font-size: $typography-sub-mobile !important;
+			letter-spacing: $sub-l-spacing-mobile !important;
+		}
+
+	}
+
+}

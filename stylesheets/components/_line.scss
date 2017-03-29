@@ -1,0 +1,19 @@
+@import "base/vars";
+
+.lines{
+
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+
+	.line{
+		float: left;
+		width: 1px;
+		height: 100%;
+		margin-left: 10%;
+		background: $color-outline;
+	}
+	
+
+}

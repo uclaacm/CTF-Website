@@ -1,9 +1,16 @@
 @import "base/vars";
 
+.header-container{
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+}
+
 .header{
 	
 	position: relative;
 	height: $header-h;
+	width: 100%;
 	background-color: $color-bg-light;
 	border-bottom: 1px solid $color-outline;
 
