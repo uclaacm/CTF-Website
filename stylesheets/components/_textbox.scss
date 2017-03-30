@@ -9,7 +9,7 @@
 .textbox{
 
 	position: absolute;
-	z-index: 24;
+	z-index: 140;
     left: 50%;
     -webkit-transform: translateX(-50%);
     		transform: translateX(-50%);
@@ -43,7 +43,7 @@
 
 #t-2{
 	top: 1400px;
-	left: 30%;
+	left: 80%;
 }
 
 #t-3{
@@ -54,7 +54,7 @@
 
 #t-4{
 	top: 1800px;
-	left: 70%;
+	left: 30%;
 }
 
 @media only screen and (max-width:  $bp-mobile){

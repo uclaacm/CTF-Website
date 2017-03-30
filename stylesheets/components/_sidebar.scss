@@ -21,6 +21,10 @@
 	height: 0px;
 	width: 0px;
 	overflow: hidden;
+	-webkit-transform: translateX(-100%);
+			transform: translateX(-100%);
+
+	transition: transform 0.3s ease;
 
 	#close{
 		display: inline-block;
@@ -56,6 +60,8 @@
 		height: auto;
 		width: $sidebar-w;
 		padding: $menu-spacing-l;
+		-webkit-transform: translateX(0);
+				transform: translateX(0);
 
 		a{
 			display: inline-block;

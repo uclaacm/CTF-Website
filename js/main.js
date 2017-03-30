@@ -25,6 +25,7 @@ function generateRandomFlags(selector, numberFlags){
 
 
 generateRandomFlags('.flags-inner', default_flags);
+generateRandomFlags('.flags-small', default_flags * 2);
 
 
 $('.menu').click(function(e){
@@ -39,7 +40,11 @@ $('.overlay, #close').click(function(e){
 		$('body').removeClass('sidebar-enabled');
 	}
 
-})
-
-
+});
+/*
+var canvas = document.createElement('canvas');
+var context = canvas.getContext('2d');
+context.drawImage('../assets/img/worldmap.jpg', 0, 0);
+console.log(context.getImageData(0,0,1,1).data);
+*/
 

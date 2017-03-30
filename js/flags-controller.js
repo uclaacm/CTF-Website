@@ -41,7 +41,7 @@ var FlagsController = (function(){
 		//apply position
 			style	+= 'top: ' + this.coord.y + 'px; left: ' + this.coord.x + 'px;';
 
-		return '<img src="' + imgsrc + '" style="' + style + '" />';
+		return '<img src="' + imgsrc + '" class="flag-point" style="' + style + '" />';
 	}
 
 	var FlagsGroup = function(containerSelector){

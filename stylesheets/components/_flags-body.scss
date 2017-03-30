@@ -1,23 +1,24 @@
 @import "base/vars";
+@import "flags";
 
-.flags{
+.flags-large{
 
-	position: absolute;
-	overflow: hidden;
-	top: 0;
-	left: 0;
+	img{
+		position: absolute;
+		z-index: 12;
+		top: 100%;
+		width: 150px;
+	}
+
+}
+
+.flags-small{
+
 	width: 100%;
 	height: 100%;
-	padding-top: $header-h;
 
-	.flags-inner{
-		position: relative;
-		width: 100%;
-		height: 100%;
-	}
-	
-
-	.flag-point{
+	img{
+		top: 100%;
 		position: absolute;
 		z-index: 6;
 		width: $flag-size;
@@ -25,10 +26,9 @@
 		transition: transform 0.3s ease;
 	}
 
-	.flag-point:hover{
+	img:hover{
 		-webkit-transform: translateY(-20px) !important;
 				transform: translateY(-20px) !important;
 	}
 
 }
-
