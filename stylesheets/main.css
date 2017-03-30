@@ -3,15 +3,9 @@
   padding: 0; }
 
 @font-face {
-  font-family: "AmCap";
-  src: url("../assets/font/AMCAP_Eternal.eot");
-  src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
-  font-style: normal;
-  font-weight: normal; }
-@font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 html, body {
@@ -66,15 +60,9 @@ html, body {
       display: none !important; } }
 
 @font-face {
-  font-family: "AmCap";
-  src: url("../assets/font/AMCAP_Eternal.eot");
-  src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
-  font-style: normal;
-  font-weight: normal; }
-@font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .header-container {
@@ -119,15 +107,9 @@ html, body {
     cursor: pointer; }
 
 @font-face {
-  font-family: "AmCap";
-  src: url("../assets/font/AMCAP_Eternal.eot");
-  src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
-  font-style: normal;
-  font-weight: normal; }
-@font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .flags {
@@ -146,77 +128,16 @@ html, body {
     position: absolute;
     z-index: 6;
     width: 15px;
-    padding: 60px;
+    padding: 40px;
     transition: transform 0.3s ease; }
   .flags img:hover {
     -webkit-transform: translateY(-20px) !important;
     transform: translateY(-20px) !important; }
 
-#f-1 {
-  left: 0;
-  -webkit-transform: rotate(25deg);
-  transform: rotate(25deg); }
-
-#f-2 {
-  left: 10%;
-  -webkit-transform: rotate(-5deg);
-  transform: rotate(-5deg); }
-
-#f-3 {
-  left: 20%;
-  -webkit-transform: rotate(10deg);
-  transform: rotate(10deg); }
-
-#f-4 {
-  left: 30%;
-  -webkit-transform: rotate(15deg);
-  transform: rotate(15deg); }
-
-#f-5 {
-  left: 40%;
-  -webkit-transform: rotate(5deg);
-  transform: rotate(5deg); }
-
-#f-6 {
-  left: 50%;
-  -webkit-transform: rotate(-25deg);
-  transform: rotate(-25deg); }
-
-#f-7 {
-  left: 60%;
-  -webkit-transform: rotate(-10deg);
-  transform: rotate(-10deg); }
-
-#f-8 {
-  left: 70%;
-  -webkit-transform: rotate(10deg);
-  transform: rotate(10deg); }
-
-#f-9 {
-  left: 80%;
-  -webkit-transform: rotate(-20deg);
-  transform: rotate(-20deg); }
-
-#f-10 {
-  left: 90%;
-  -webkit-transform: rotate(15deg);
-  transform: rotate(15deg); }
-
-#f-11 {
-  left: 100%;
-  -webkit-transform: rotate(-15deg);
-  transform: rotate(-15deg); }
-
-@font-face {
-  font-family: "AmCap";
-  src: url("../assets/font/AMCAP_Eternal.eot");
-  src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
-  font-style: normal;
-  font-weight: normal; }
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .splash {
@@ -253,16 +174,7 @@ html, body {
       padding-left: 20px;
       padding-right: 0px;
       border-top: 1px solid black;
-      border-bottom: 1px solid black;
-      /*&:after {
-          content: "";
-          width: $sub-l-spacing;
-          height: 70px;
-          position: absolute;
-          bottom: -1px;
-          right: -1px;
-          background: $color-bg-light;
-      }*/ }
+      border-bottom: 1px solid black; }
 
 @media only screen and (max-width: 700px) {
   .title-text h1 {
@@ -272,15 +184,9 @@ html, body {
     font-size: 7.5px !important;
     letter-spacing: 11.25px !important; } }
 @font-face {
-  font-family: "AmCap";
-  src: url("../assets/font/AMCAP_Eternal.eot");
-  src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
-  font-style: normal;
-  font-weight: normal; }
-@font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .lines {
@@ -298,27 +204,15 @@ html, body {
     background: #eeeeee; }
 
 @font-face {
-  font-family: "AmCap";
-  src: url("../assets/font/AMCAP_Eternal.eot");
-  src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
-  font-style: normal;
-  font-weight: normal; }
-@font-face {
-  font-family: "AmCap";
-  src: url("../assets/font/AMCAP_Eternal.eot");
-  src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
-  font-style: normal;
-  font-weight: normal; }
-@font-face {
-  font-family: "Sen";
-  src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .strong {
@@ -353,16 +247,7 @@ html, body {
 
 #t-2 {
   top: 1400px;
-  left: 30%;
-  	/*h3{
-  		-wekbkit-transform: rotate(-90deg);
-  				transform: rotate(-90deg);
-  		transform-origin: 0;
-  	}
-  
-  	p{
-  		margin-left: 50px;
-  	}*/ }
+  left: 30%; }
 
 #t-3 {
   top: 1600px;

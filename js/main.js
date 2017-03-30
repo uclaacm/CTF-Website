@@ -1,4 +1,11 @@
-var s = skrollr.init();
+var default_flags = 30;
+
+if(window.innerWidth > 800){
+	var s = skrollr.init();
+}
+else{
+	default_flags = 20;
+}
 
 function generateRandomFlags(selector, numberFlags){
 
@@ -7,12 +14,9 @@ function generateRandomFlags(selector, numberFlags){
 	var maxX = document.querySelector(selector).offsetWidth;
 	var maxY = document.querySelector(selector).offsetHeight;
 
-	console.log('max x: ' + maxX + ', max y: ' + maxY);
-
 	for(var i = 0; i < numberFlags; i++){
 		var x = Math.floor(Math.random() * maxX);
 		var y = Math.floor(Math.random() * maxY);
-		console.log('adding ' + x + ', ' + y);
 		myFlags.add(x, y);
 	}
 	
@@ -20,7 +24,7 @@ function generateRandomFlags(selector, numberFlags){
 }
 
 
-generateRandomFlags('.flags-inner', 30);
+generateRandomFlags('.flags-inner', default_flags);
 
 
 

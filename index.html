@@ -57,23 +57,16 @@
 		<h1 data-0="transform: translateX(0%);" data-200="transform: translateX(200%);">CTF</h1>
 		<h4 data-0="transform: translateX(0%);" data-200="transform: translateX(-200%);">CAPTURE THE FLAG</h4>
 		<br>
-		<!--<i data-0="opacity: 1; " data-20="opacity: 0;"class="fa fa-chevron-down" aria-hidden="true"></i>-->
 	</div>
 </div>
 
 
 <div class="main-scroll-body">
 
-	<!--<div id="t-1" class="textbox" data-0="top: 800px; transform: translate(-200%, 100px);" data-800="opacity: 1; transform: translate(0%, -200px)" data-1000="transform: translate(50%, -250px); opacity: 0" >
-		<h3 class="strong">WHAT IS CTF?</h3>
-		<p>
-		A hackathon, but you’re actually hacking. Participants will be competing against other students from colleges around California. Open to all skill levels!
-		</p>
-	</div>-->
 	<div id="t-1" class="textbox-flat">
 		<h2 class="strong">What is CTF?</h2>
 		<p>
-		Capture the Flag is a hackathon, but one in which you’re actually hacking.<br>Participants will be competing against other students from colleges around California.<br> Open to all skill levels!
+		Capture the Flag is a hackathon, but one in which you’re actually hacking!<br>Participants will be competing against other students from colleges around California.<br>CTF is open to all skill levels.
 		</p>
 	</div>
 
@@ -87,8 +80,7 @@
 
 	<div id="t-3" class="textbox-flat" data-400="top: 1400px; ">
 		<h2 class="strong">Challenge<br>Structure</h2>
-		<p>A wide variety of challenges.</p>
-		<p>Quiz questions located on a world map.</p>
+		<p>Challenge questions are located on a world map.</p>
 		<p>Each question will be associated with a country.</p>
 		<p>The more difficult a question, the more points your team is awarded<br> for "capturing" that particular country's flag.</p>
 	</div>
@@ -103,10 +95,12 @@
 </div>
 
 
-
+<!--dependencies-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
+<script src="https://use.fontawesome.com/eb20c96418.js"></script>
 
+<!--load skrollr if not mobile-->
+<script>
 function load(script) {
 	document.write('<'+'script src="'+script+'" type="text/javascript"><' + '/script>');
 }
@@ -114,9 +108,9 @@ function load(script) {
 if(window.innerWidth > 800){
 	load('https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js');
 }
-
 </script>
-<script src="https://use.fontawesome.com/eb20c96418.js"></script>
+
+<!--custom js-->
 <script src="js/flags-controller.js"></script>
 <script src="js/main.js"></script>
 

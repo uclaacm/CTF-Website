@@ -1,5 +1,5 @@
 @import 'mixins/fontface';
-@include fontFace('AmCap','../assets/font/AMCAP_Eternal');
+//@include fontFace('AmCap','../assets/font/AMCAP_Eternal');
 @include fontFace('Sen', '../assets/font/sen-regular');
 
 // Colors //
@@ -49,6 +49,10 @@ $menu-spacing-l	: 20px;
 $spacing-main   : 40px;
 $spacing-side   : 80px;
 $spacing-mobile-side: 20px;
+
+// Flags //
+$flag-size 		: 15px;
+$flag-spacing 	: 40px;
 
 // TextBox //
 
