@@ -340,9 +340,21 @@ html, body {
   .strong {
     font-size: 40px !important;
     line-height: 40px !important; } }
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.flags-large img {
+  position: absolute;
+  width: 200px;
+  z-index: 128; }
+
 .main-scroll-body {
   position: absolute;
   width: 100%;
-  height: 4000px; }
+  height: 4000px;
+  overflow-x: hidden; }
 
 /*# sourceMappingURL=main.css.map */
