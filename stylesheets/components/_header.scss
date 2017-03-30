@@ -2,7 +2,7 @@
 
 .header-container{
 	position: absolute;
-	z-index: 100;
+	z-index: 128;
 	width: 100%;
 	overflow: hidden;
 }
@@ -59,4 +59,13 @@
 		cursor: pointer;
 	}
 
+}
+
+.menu-toggle-small{
+	position: fixed;
+    z-index: 128;
+    height: 50px;
+    width: 50px;
+    padding: 25px;
+    cursor: pointer;
 }
