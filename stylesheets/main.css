@@ -65,6 +65,60 @@ html, body {
   src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
+.main-wrapper {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease; }
+
+.overlay {
+  position: fixed;
+  z-index: 128;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: background 0.3s ease; }
+
+.sidebar {
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  overflow: hidden; }
+  .sidebar #close {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px; }
+  .sidebar h4:hover {
+    cursor: pointer;
+    text-decoration: underline; }
+
+.sidebar-enabled {
+  overflow: hidden; }
+  .sidebar-enabled .main-wrapper {
+    -webkit-transform: translateX(250px);
+    transform: translateX(250px); }
+  .sidebar-enabled .overlay {
+    pointer-events: initial;
+    background: rgba(0, 0, 0, 0.7); }
+  .sidebar-enabled .sidebar {
+    height: auto;
+    width: 250px;
+    padding: 20px; }
+    .sidebar-enabled .sidebar a {
+      display: inline-block; }
+    .sidebar-enabled .sidebar h4 {
+      margin-bottom: 20px; }
+
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
 .header-container {
   position: absolute;
   z-index: 100;
@@ -128,7 +182,7 @@ html, body {
     position: absolute;
     z-index: 6;
     width: 15px;
-    padding: 40px;
+    padding: 20px;
     transition: transform 0.3s ease; }
   .flags img:hover {
     -webkit-transform: translateY(-20px) !important;

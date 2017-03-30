@@ -27,4 +27,19 @@ function generateRandomFlags(selector, numberFlags){
 generateRandomFlags('.flags-inner', default_flags);
 
 
+$('.menu').click(function(e){
+
+	$('body').addClass('sidebar-enabled');
+
+});
+
+$('.overlay, #close').click(function(e){
+
+	if($('body').hasClass('sidebar-enabled')){
+		$('body').removeClass('sidebar-enabled');
+	}
+
+})
+
+
 
