@@ -55,9 +55,13 @@ html, body {
   html a, body a {
     color: #000000;
     text-decoration: inherit; }
+  html .screen-hidden, body .screen-hidden {
+    display: none; }
   @media only screen and (max-width: 700px) {
     html .mobile-hidden, body .mobile-hidden {
-      display: none !important; } }
+      display: none !important; }
+    html .screen-hidden, body .screen-hidden {
+      display: block; } }
 
 @font-face {
   font-family: "Sen";
@@ -73,7 +77,8 @@ html, body {
 
 .overlay {
   position: fixed;
-  z-index: 140;
+  overflow: hidden;
+  z-index: 152;
   width: 100%;
   height: 100%;
   pointer-events: none;
@@ -200,15 +205,22 @@ html, body {
     position: relative;
     width: 100%;
     height: 100%; }
-  .flags .flag-point {
-    position: absolute;
-    z-index: 6;
-    width: 15px;
-    padding: 20px;
-    transition: transform 0.3s ease; }
-  .flags .flag-point:hover {
-    -webkit-transform: translateY(-20px) !important;
-    transform: translateY(-20px) !important; }
+
+.flag-point {
+  position: absolute;
+  z-index: 6;
+  width: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0); }
+
+.flag-point:hover {
+  -webkit-transform: translateY(-20px) !important;
+  transform: translateY(-20px) !important; }
 
 @font-face {
   font-family: "Sen";
@@ -267,6 +279,7 @@ html, body {
   font-weight: normal; }
 .lines {
   position: fixed;
+  overflow-y: hidden;
   z-index: 1;
   width: 100%;
   height: 100%; }
@@ -303,16 +316,22 @@ html, body {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   background: #fbf9f9;
-  padding: 40px;
-  width: 300px;
+  padding: 80px;
+  width: 350px;
   border: 1px solid #000000;
-  color: #000000; }
+  color: #000000;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0); }
   .textbox .strong {
     line-height: 4rem; }
 
 .textbox-flat {
   position: absolute;
-  z-index: 23; }
+  z-index: 23;
+  pointer-events: none; }
   .textbox-flat h2 {
     font-size: 100px;
     line-height: 100px; }
@@ -323,7 +342,7 @@ html, body {
 
 #t-2 {
   top: 1400px;
-  left: 80%; }
+  left: 70%; }
 
 #t-3 {
   top: 1600px;
@@ -332,15 +351,19 @@ html, body {
 
 #t-4 {
   top: 1800px;
-  left: 30%; }
+  left: 20%; }
 
 @media only screen and (max-width: 700px) {
   #t-1 {
-    left: 20px; }
+    left: 0;
+    width: 100%;
+    padding: 20px; }
 
   #t-3 {
-    right: 20px;
-    top: 1200px; }
+    top: 1500px;
+    left: 0;
+    width: 100%;
+    padding: 20px; }
 
   .strong {
     font-size: 40px !important;
@@ -369,35 +392,39 @@ html, body {
     position: relative;
     width: 100%;
     height: 100%; }
-  .flags .flag-point {
-    position: absolute;
-    z-index: 6;
-    width: 15px;
-    padding: 20px;
-    transition: transform 0.3s ease; }
-  .flags .flag-point:hover {
-    -webkit-transform: translateY(-20px) !important;
-    transform: translateY(-20px) !important; }
+
+.flag-point {
+  position: absolute;
+  z-index: 6;
+  width: 15px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0); }
+
+.flag-point:hover {
+  -webkit-transform: translateY(-20px) !important;
+  transform: translateY(-20px) !important; }
 
 .flags-large img {
   position: absolute;
   z-index: 12;
   top: 100%;
-  width: 150px; }
+  width: 150px;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0); }
 
 .flags-small {
+  position: absolute;
+  overflow: hidden;
   width: 100%;
   height: 100%; }
-  .flags-small img {
-    top: 100%;
-    position: absolute;
-    z-index: 6;
-    width: 15px;
-    padding: 20px;
-    transition: transform 0.3s ease; }
-  .flags-small img:hover {
-    -webkit-transform: translateY(-20px) !important;
-    transform: translateY(-20px) !important; }
 
 .main-scroll-body {
   position: absolute;

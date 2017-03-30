@@ -15,7 +15,7 @@
     		transform: translateX(-50%);
 
 	background: $color-bg-light;
-	padding: $spacing-main;
+	padding: $spacing-side;
 	width: $textbox-width;
 	border: 1px solid $color-text-dark;
 	color: $color-text-dark;
@@ -23,11 +23,19 @@
 	.strong{
 		line-height: 4rem;
 	}
+
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+
 }
 
 .textbox-flat{
 	position: absolute;
 	z-index: 23;
+	pointer-events: none;
 
 	h2{
 		font-size: 100px;
@@ -43,7 +51,7 @@
 
 #t-2{
 	top: 1400px;
-	left: 80%;
+	left: 70%;
 }
 
 #t-3{
@@ -54,17 +62,21 @@
 
 #t-4{
 	top: 1800px;
-	left: 30%;
+	left: 20%;
 }
 
 @media only screen and (max-width:  $bp-mobile){
 	#t-1{
-		left: $spacing-mobile-side;
+		left: 0;
+		width: 100%;
+		padding: $spacing-mobile-side;
 	}
 
 	#t-3{
-		right: $spacing-mobile-side;
-		top: 1200px;
+		top: 1500px;
+		left: 0;
+		width: 100%;
+		padding: $spacing-mobile-side;
 	}
 
 	.strong{

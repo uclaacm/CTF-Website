@@ -17,18 +17,23 @@
 	}
 	
 
-	.flag-point{
-		position: absolute;
-		z-index: 6;
-		width: $flag-size;
-		padding: $flag-spacing;
-		transition: transform 0.3s ease;
-	}
-
-	.flag-point:hover{
-		-webkit-transform: translateY(-20px) !important;
-				transform: translateY(-20px) !important;
-	}
-
 }
 
+.flag-point{
+	position: absolute;
+	z-index: 6;
+	width: $flag-size;
+	padding: $flag-spacing;
+	transition: transform 0.3s ease;
+
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.flag-point:hover{
+	-webkit-transform: translateY(-20px) !important;
+			transform: translateY(-20px) !important;
+}
