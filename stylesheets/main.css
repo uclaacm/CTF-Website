@@ -80,7 +80,8 @@ html, body {
 .header-container {
   position: absolute;
   z-index: 100;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden; }
 
 .header {
   position: relative;
@@ -131,19 +132,25 @@ html, body {
   font-weight: normal; }
 .flags {
   position: absolute;
+  overflow: hidden;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  padding-top: 70px; }
   .flags .flags-inner {
     position: relative;
     width: 100%;
     height: 100%; }
   .flags img {
     position: absolute;
-    z-index: 12;
-    bottom: -5px;
-    width: 30px; }
+    z-index: 6;
+    width: 15px;
+    padding: 60px;
+    transition: transform 0.3s ease; }
+  .flags img:hover {
+    -webkit-transform: translateY(-20px) !important;
+    transform: translateY(-20px) !important; }
 
 #f-1 {
   left: 0;
@@ -216,32 +223,51 @@ html, body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
   height: 100vh;
   width: 100%;
-  padding-top: 70px; }
+  padding-top: 70px;
+  pointer-events: none; }
   .splash #splash-container {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    background-image: url("../assets/img/worldmap.svg");
+    background-size: 90%;
+    background-position: 50%;
+    background-repeat: no-repeat; }
   .splash .title-text {
     position: absolute;
+    z-index: 12;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
     .splash .title-text h1 {
-      font-family: "AmCap", sans-serif;
+      font-family: "Product Sans", Arial, sans-serif;
       font-size: 250px;
-      line-height: 170px;
+      line-height: 230px;
       color: #000000; }
     .splash .title-text h4 {
       font-size: 15px;
-      letter-spacing: 22.5px; }
+      letter-spacing: 22.5px;
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 0px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      /*&:after {
+          content: "";
+          width: $sub-l-spacing;
+          height: 70px;
+          position: absolute;
+          bottom: -1px;
+          right: -1px;
+          background: $color-bg-light;
+      }*/ }
 
 @media only screen and (max-width: 700px) {
   .title-text h1 {
     font-size: 125px !important;
-    line-height: 85px !important; }
+    line-height: 115px !important; }
   .title-text h4 {
     font-size: 7.5px !important;
     letter-spacing: 11.25px !important; } }
@@ -295,8 +321,9 @@ html, body {
   src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
-.strong, .textbox-flat h2 {
-  font-family: "AmCap", sans-serif;
+.strong {
+  font-family: "Product Sans", Arial, sans-serif;
+  font-weight: bold;
   color: #2f48ab; }
 
 .textbox {
@@ -308,9 +335,9 @@ html, body {
   background: #fbf9f9;
   padding: 40px;
   width: 300px;
-  border: 15px solid #e7dd45;
+  border: 1px solid #000000;
   color: #000000; }
-  .textbox .strong, .textbox .textbox-flat h2, .textbox-flat .textbox h2 {
+  .textbox .strong {
     line-height: 4rem; }
 
 .textbox-flat {
@@ -318,7 +345,7 @@ html, body {
   z-index: 23; }
   .textbox-flat h2 {
     font-size: 100px;
-    line-height: 90px; }
+    line-height: 100px; }
 
 #t-1 {
   top: 800px;
@@ -346,6 +373,17 @@ html, body {
   top: 1800px;
   left: 70%; }
 
+@media only screen and (max-width: 700px) {
+  #t-1 {
+    left: 20px; }
+
+  #t-3 {
+    right: 20px;
+    top: 1200px; }
+
+  .strong {
+    font-size: 40px !important;
+    line-height: 40px !important; } }
 .main-scroll-body {
   position: absolute;
   width: 100%;

@@ -17,11 +17,11 @@ $color-text-dark	: #000000;
 
 // Typography //
 
-$font-header			: 'AmCap', sans-serif;
+$font-header			: 'Product Sans', Arial, sans-serif;
 $font-body				: 'Sen', sans-serif;
 $typography-base-size	: 12px;
 $typography-header		: 250px;
-$typography-header-line : $typography-header - 80;
+$typography-header-line : $typography-header - 20;
 $typography-sub			: 15px;
 $sub-l-spacing			: $typography-sub * 1.5;
 
@@ -48,6 +48,7 @@ $menu-spacing-l	: 20px;
 
 $spacing-main   : 40px;
 $spacing-side   : 80px;
+$spacing-mobile-side: 20px;
 
 // TextBox //
 

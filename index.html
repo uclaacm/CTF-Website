@@ -10,7 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css"/>
 
 	<link rel="shortcut icon" type="image/x-icon" href="" />
-
+	<link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
@@ -25,29 +25,16 @@
 	<div class="line"></div>
 	<div class="line"></div>
 </div>
-
-<div class="flags" data-0="top: 0px" data-30="top: -150px; opacity: 1" data-100="top: 300px; opacity: 0">
+<div class="flags">
 	<div class="flags-inner">
-		<img id="f-1" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
-		<img id="f-2" src="assets/img/flag-yellow.png"/>
-		<img id="f-3" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
-		<img id="f-4" src="assets/img/flag-yellow.png"/>
-		<img id="f-5" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
-		<img id="f-6" src="assets/img/flag-yellow.png"/>
-		<img id="f-7" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
-		<img id="f-8" src="assets/img/flag-yellow.png"/>
-		<img id="f-9" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
-		<img id="f-10" src="assets/img/flag-yellow.png"/>
-		<img id="f-11" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
 	</div>
 </div>
-
 <div class="header-container">
 	<div class="header">
 		<!--replace with logo img later-->
 		<div class="header-item-wrapper title">
-			<!--<h3 class="title-text"><i class="fa fa-flag" aria-hidden="true"></i></h3>-->
-			<img src="assets/img/flag-black.png" width="30px"/>
+			<h3 class="title-text"><i class="fa fa-globe" aria-hidden="true"></i></h3>
+			<!--<img src="assets/img/flag-black.png" width="30px"/>-->
 		</div>
 
 		<div class="header-item-wrapper menu">
@@ -70,7 +57,7 @@
 		<h1 data-0="transform: translateX(0%);" data-200="transform: translateX(200%);">CTF</h1>
 		<h4 data-0="transform: translateX(0%);" data-200="transform: translateX(-200%);">CAPTURE THE FLAG</h4>
 		<br>
-		<i data-0="opacity: 1; " data-20="opacity: 0;"class="fa fa-chevron-down" aria-hidden="true"></i>
+		<!--<i data-0="opacity: 1; " data-20="opacity: 0;"class="fa fa-chevron-down" aria-hidden="true"></i>-->
 	</div>
 </div>
 
@@ -84,33 +71,32 @@
 		</p>
 	</div>-->
 	<div id="t-1" class="textbox-flat">
-		<h2>WHAT IS CTF?</h2>
+		<h2 class="strong">What is CTF?</h2>
 		<p>
-		A hackathon, but you’re actually hacking.<br>Participants will be competing against other students from colleges around California.<br> Open to all skill levels!
+		Capture the Flag is a hackathon, but one in which you’re actually hacking.<br>Participants will be competing against other students from colleges around California.<br> Open to all skill levels!
 		</p>
 	</div>
 
-	<div id="t-2" class="textbox"
+	<div id="t-2" class="textbox mobile-hidden"
 		data-400="top: 1200px"
 		data-1100="top: 600px">
-		<h3><i class="fa fa-map-marker" aria-hidden="true"></i>
-LOCATION</h3>
-		<p>Somewhere ifdjsoafhdsa fhdas</p>
+		<h4>LOCATIONS</h4>
+		<p><strong><i class="fa fa-map-marker" aria-hidden="true"></i> UCLA</strong><br>Somewhere Plaza Hill</p>
+		<p><strong><i class="fa fa-map-marker" aria-hidden="true"></i> Stanford</strong><br>Some building place</p>
 	</div>
 
 	<div id="t-3" class="textbox-flat" data-400="top: 1400px; ">
-		<h2>Challenge<br>Structure</h2>
+		<h2 class="strong">Challenge<br>Structure</h2>
 		<p>A wide variety of challenges.</p>
 		<p>Quiz questions located on a world map.</p>
 		<p>Each question will be associated with a country.</p>
 		<p>The more difficult a question, the more points your team is awarded<br> for "capturing" that particular country's flag.</p>
 	</div>
 
-	<div id="t-4" class="textbox"
+	<div id="t-4" class="textbox mobile-hidden"
 		data-700="top: 1800px"
-		data-1300="top: 800px">
-		<h3><i class="fa fa-clock-o" aria-hidden="true"></i><br>
-TIME</h3>
+		data-1300="top: 900px">
+		<h4><i class="fa fa-clock-o" aria-hidden="true"></i>&nbspDATE & TIME</h4>
 		<p>sometime rjei 0f0d9sa</p>
 	</div>
 
@@ -118,7 +104,7 @@ TIME</h3>
 
 
 
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
 
 function load(script) {
@@ -130,8 +116,8 @@ if(window.innerWidth > 800){
 }
 
 </script>
-<!--<script type="text/javascript" src="js/vendor/p5.min.js"></script>-->
 <script src="https://use.fontawesome.com/eb20c96418.js"></script>
+<script src="js/flags-controller.js"></script>
 <script src="js/main.js"></script>
 
 </body>

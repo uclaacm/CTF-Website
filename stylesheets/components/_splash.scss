@@ -5,18 +5,23 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	z-index: 1;
 	height: 100vh;
 	width: 100%;
 	padding-top: $header-h;
+	pointer-events: none;
 
 	#splash-container{
 		width: 100%;
 		height: 100%;
+		background-image: url('../assets/img/worldmap.svg'); 
+		background-size: 90%;
+		background-position: 50%;
+		background-repeat: no-repeat;
 	}
 
 	.title-text{
 		position: absolute;
+		z-index: 12;
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
@@ -33,6 +38,21 @@
 		h4{
 			font-size: $typography-sub;
 			letter-spacing: $sub-l-spacing;
+			padding: 10px;
+			padding-left: 20px;
+			padding-right: 0px;
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
+
+			/*&:after {
+			    content: "";
+			    width: $sub-l-spacing;
+			    height: 70px;
+			    position: absolute;
+			    bottom: -1px;
+			    right: -1px;
+			    background: $color-bg-light;
+			}*/
 		}
 	}
 

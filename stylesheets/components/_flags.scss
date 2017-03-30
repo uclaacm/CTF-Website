@@ -3,10 +3,12 @@
 .flags{
 
 	position: absolute;
+	overflow: hidden;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+	padding-top: $header-h;
 
 	.flags-inner{
 		position: relative;
@@ -17,9 +19,15 @@
 
 	img{
 		position: absolute;
-		z-index: 12;
-		bottom: -5px;
-		width: 30px;
+		z-index: 6;
+		width: 15px;
+		padding: 60px;
+		transition: transform 0.3s ease;
+	}
+
+	img:hover{
+		-webkit-transform: translateY(-20px) !important;
+				transform: translateY(-20px) !important;
 	}
 
 }

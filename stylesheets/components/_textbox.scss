@@ -2,6 +2,7 @@
 
 .strong{
 	font-family: $font-header;
+	font-weight: bold;
 	color: $color-primary;
 }
 
@@ -16,8 +17,8 @@
 	background: $color-bg-light;
 	padding: $spacing-main;
 	width: $textbox-width;
-	//box-shadow: $textbox-shadow;
-	border: 15px solid $color-secondary;
+	//border: 15px solid $color-secondary;
+	border: 1px solid $color-text-dark;
 	color: $color-text-dark;
 
 	.strong{
@@ -30,9 +31,8 @@
 	z-index: 23;
 
 	h2{
-		@extend .strong;
 		font-size: 100px;
-		line-height: 90px;
+		line-height: 100px;
 	}
 }
 
@@ -66,4 +66,20 @@
 #t-4{
 	top: 1800px;
 	left: 70%;
+}
+
+@media only screen and (max-width:  $bp-mobile){
+	#t-1{
+		left: $spacing-mobile-side;
+	}
+
+	#t-3{
+		right: $spacing-mobile-side;
+		top: 1200px;
+	}
+
+	.strong{
+		font-size: 40px !important;
+		line-height: 40px !important;
+	}
 }
