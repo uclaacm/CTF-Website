@@ -1,5 +1,10 @@
 @import "base/vars";
 
+.strong{
+	font-family: $font-header;
+	color: $color-primary;
+}
+
 .textbox{
 
 	position: absolute;
@@ -11,12 +16,54 @@
 	background: $color-bg-light;
 	padding: $spacing-main;
 	width: $textbox-width;
-	box-shadow: $textbox-shadow;
+	//box-shadow: $textbox-shadow;
+	border: 15px solid $color-secondary;
+	color: $color-text-dark;
 
-	h3{
-		font-family: $font-header;
-		color: $color-primary;
+	.strong{
+		line-height: 4rem;
+	}
+}
+
+.textbox-flat{
+	position: absolute;
+	z-index: 23;
+
+	h2{
+		@extend .strong;
+		font-size: 100px;
+		line-height: 90px;
+	}
+}
+
+
+#t-1{
+	top: 800px;
+	left: $spacing-side;
+}
+
+#t-2{
+	top: 1400px;
+	left: 30%;
+
+	/*h3{
+		-wekbkit-transform: rotate(-90deg);
+				transform: rotate(-90deg);
+		transform-origin: 0;
 	}
 
+	p{
+		margin-left: 50px;
+	}*/
+}
 
+#t-3{
+	top: 1600px;
+	text-align: right;
+	right: $spacing-side;
+}
+
+#t-4{
+	top: 1800px;
+	left: 70%;
 }

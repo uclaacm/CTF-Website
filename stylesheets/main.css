@@ -8,6 +8,12 @@
   src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
   font-style: normal;
   font-weight: normal; }
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
 html, body {
   font-size: 12px;
   font-family: sans-serif;
@@ -19,7 +25,7 @@ html, body {
   html, html div, body, body div {
     box-sizing: border-box; }
   html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3, body h4, body h5, body h6 {
-    font-family: sans-serif; }
+    font-family: "Sen", sans-serif; }
   html h1, html h2, body h1, body h2 {
     font-weight: 400; }
   html h3, html h4, html h5, html h6, body h3, body h4, body h5, body h6 {
@@ -37,7 +43,8 @@ html, body {
   html h6, body h6 {
     font-size: 0.8rem; }
   html p, body p {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    font-family: "Sen", sans-serif; }
   html small, body small {
     font-size: 0.66667em; }
   html .article, body .article {
@@ -62,6 +69,12 @@ html, body {
   font-family: "AmCap";
   src: url("../assets/font/AMCAP_Eternal.eot");
   src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .header-container {
@@ -100,7 +113,7 @@ html, body {
   .header .header-item-wrapper.link {
     right: 0;
     padding: 0 20px;
-    background: #2fab9c;
+    background: #2f48ab;
     color: #fbf9f9;
     cursor: pointer; }
 
@@ -108,6 +121,95 @@ html, body {
   font-family: "AmCap";
   src: url("../assets/font/AMCAP_Eternal.eot");
   src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.flags {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+  .flags .flags-inner {
+    position: relative;
+    width: 100%;
+    height: 100%; }
+  .flags img {
+    position: absolute;
+    z-index: 12;
+    bottom: -5px;
+    width: 30px; }
+
+#f-1 {
+  left: 0;
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg); }
+
+#f-2 {
+  left: 10%;
+  -webkit-transform: rotate(-5deg);
+  transform: rotate(-5deg); }
+
+#f-3 {
+  left: 20%;
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg); }
+
+#f-4 {
+  left: 30%;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg); }
+
+#f-5 {
+  left: 40%;
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg); }
+
+#f-6 {
+  left: 50%;
+  -webkit-transform: rotate(-25deg);
+  transform: rotate(-25deg); }
+
+#f-7 {
+  left: 60%;
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg); }
+
+#f-8 {
+  left: 70%;
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg); }
+
+#f-9 {
+  left: 80%;
+  -webkit-transform: rotate(-20deg);
+  transform: rotate(-20deg); }
+
+#f-10 {
+  left: 90%;
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg); }
+
+#f-11 {
+  left: 100%;
+  -webkit-transform: rotate(-15deg);
+  transform: rotate(-15deg); }
+
+@font-face {
+  font-family: "AmCap";
+  src: url("../assets/font/AMCAP_Eternal.eot");
+  src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .splash {
@@ -149,6 +251,12 @@ html, body {
   src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
   font-style: normal;
   font-weight: normal; }
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
 .lines {
   position: fixed;
   z-index: 1;
@@ -158,7 +266,9 @@ html, body {
     float: left;
     width: 1px;
     height: 100%;
-    margin-left: 10%;
+    margin-left: -webkit-calc(10% - 1px);
+    margin-left: -moz-calc(10% - 1px);
+    margin-left: calc(10% - 1px);
     background: #eeeeee; }
 
 @font-face {
@@ -168,11 +278,27 @@ html, body {
   font-style: normal;
   font-weight: normal; }
 @font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
   font-family: "AmCap";
   src: url("../assets/font/AMCAP_Eternal.eot");
   src: url("../assets/font/AMCAP_Eternal.eot?#iefix") format("embedded-opentype"), url("../assets/font/AMCAP_Eternal.ttf") format("truetype"), url("../assets/font/AMCAP_Eternal.svg#AmCap") format("svg");
   font-style: normal;
   font-weight: normal; }
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.strong, .textbox-flat h2 {
+  font-family: "AmCap", sans-serif;
+  color: #2f48ab; }
+
 .textbox {
   position: absolute;
   z-index: 24;
@@ -182,14 +308,47 @@ html, body {
   background: #fbf9f9;
   padding: 40px;
   width: 300px;
-  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.1); }
-  .textbox h3 {
-    font-family: "AmCap", sans-serif;
-    color: #2fab9c; }
+  border: 15px solid #e7dd45;
+  color: #000000; }
+  .textbox .strong, .textbox .textbox-flat h2, .textbox-flat .textbox h2 {
+    line-height: 4rem; }
+
+.textbox-flat {
+  position: absolute;
+  z-index: 23; }
+  .textbox-flat h2 {
+    font-size: 100px;
+    line-height: 90px; }
+
+#t-1 {
+  top: 800px;
+  left: 80px; }
+
+#t-2 {
+  top: 1400px;
+  left: 30%;
+  	/*h3{
+  		-wekbkit-transform: rotate(-90deg);
+  				transform: rotate(-90deg);
+  		transform-origin: 0;
+  	}
+  
+  	p{
+  		margin-left: 50px;
+  	}*/ }
+
+#t-3 {
+  top: 1600px;
+  text-align: right;
+  right: 80px; }
+
+#t-4 {
+  top: 1800px;
+  left: 70%; }
 
 .main-scroll-body {
   position: absolute;
   width: 100%;
-  height: 2000px; }
+  height: 4000px; }
 
 /*# sourceMappingURL=main.css.map */

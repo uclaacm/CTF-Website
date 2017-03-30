@@ -26,11 +26,28 @@
 	<div class="line"></div>
 </div>
 
+<div class="flags" data-0="top: 0px" data-30="top: -150px; opacity: 1" data-100="top: 300px; opacity: 0">
+	<div class="flags-inner">
+		<img id="f-1" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
+		<img id="f-2" src="assets/img/flag-yellow.png"/>
+		<img id="f-3" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
+		<img id="f-4" src="assets/img/flag-yellow.png"/>
+		<img id="f-5" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
+		<img id="f-6" src="assets/img/flag-yellow.png"/>
+		<img id="f-7" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
+		<img id="f-8" src="assets/img/flag-yellow.png"/>
+		<img id="f-9" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
+		<img id="f-10" src="assets/img/flag-yellow.png"/>
+		<img id="f-11" class="mobile-hidden" src="assets/img/flag-yellow.png"/>
+	</div>
+</div>
+
 <div class="header-container">
 	<div class="header">
 		<!--replace with logo img later-->
 		<div class="header-item-wrapper title">
-			<h3 class="title-text"><i class="fa fa-flag" aria-hidden="true"></i></h3>
+			<!--<h3 class="title-text"><i class="fa fa-flag" aria-hidden="true"></i></h3>-->
+			<img src="assets/img/flag-black.png" width="30px"/>
 		</div>
 
 		<div class="header-item-wrapper menu">
@@ -50,26 +67,70 @@
 <div class="splash">
 	<div id="splash-container"></div>
 	<div class="title-text">
-		<h1>CTF</h1>
-		<h4>CAPTURE THE FLAG</h4>
+		<h1 data-0="transform: translateX(0%);" data-200="transform: translateX(200%);">CTF</h1>
+		<h4 data-0="transform: translateX(0%);" data-200="transform: translateX(-200%);">CAPTURE THE FLAG</h4>
+		<br>
+		<i data-0="opacity: 1; " data-20="opacity: 0;"class="fa fa-chevron-down" aria-hidden="true"></i>
 	</div>
 </div>
 
+
 <div class="main-scroll-body">
 
-<div class="textbox" data-0="top: 700px; opacity: 0.3; transform: translateX(-200%);" data-850="opacity: 1; transform: translateX(0%)" data-1000="transform: translateX(100%); opacity: 0">
-	<h3>WHAT IS CTF?</h3>
-	<p>
-	A hackathon, but you’re actually hacking. You will be competing against other students, from schools around California. Open to university students of all skill levels!
-	</p>
-</div>
+	<!--<div id="t-1" class="textbox" data-0="top: 800px; transform: translate(-200%, 100px);" data-800="opacity: 1; transform: translate(0%, -200px)" data-1000="transform: translate(50%, -250px); opacity: 0" >
+		<h3 class="strong">WHAT IS CTF?</h3>
+		<p>
+		A hackathon, but you’re actually hacking. Participants will be competing against other students from colleges around California. Open to all skill levels!
+		</p>
+	</div>-->
+	<div id="t-1" class="textbox-flat">
+		<h2>WHAT IS CTF?</h2>
+		<p>
+		A hackathon, but you’re actually hacking.<br>Participants will be competing against other students from colleges around California.<br> Open to all skill levels!
+		</p>
+	</div>
+
+	<div id="t-2" class="textbox"
+		data-400="top: 1200px"
+		data-1100="top: 600px">
+		<h3><i class="fa fa-map-marker" aria-hidden="true"></i>
+LOCATION</h3>
+		<p>Somewhere ifdjsoafhdsa fhdas</p>
+	</div>
+
+	<div id="t-3" class="textbox-flat" data-400="top: 1400px; ">
+		<h2>Challenge<br>Structure</h2>
+		<p>A wide variety of challenges.</p>
+		<p>Quiz questions located on a world map.</p>
+		<p>Each question will be associated with a country.</p>
+		<p>The more difficult a question, the more points your team is awarded<br> for "capturing" that particular country's flag.</p>
+	</div>
+
+	<div id="t-4" class="textbox"
+		data-700="top: 1800px"
+		data-1300="top: 800px">
+		<h3><i class="fa fa-clock-o" aria-hidden="true"></i><br>
+TIME</h3>
+		<p>sometime rjei 0f0d9sa</p>
+	</div>
 
 </div>
+
 
 
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>-->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
-<script type="text/javascript" src="js/vendor/p5.min.js"></script>
+<script>
+
+function load(script) {
+	document.write('<'+'script src="'+script+'" type="text/javascript"><' + '/script>');
+}
+
+if(window.innerWidth > 800){
+	load('https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js');
+}
+
+</script>
+<!--<script type="text/javascript" src="js/vendor/p5.min.js"></script>-->
 <script src="https://use.fontawesome.com/eb20c96418.js"></script>
 <script src="js/main.js"></script>
 

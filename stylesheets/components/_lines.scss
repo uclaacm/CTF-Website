@@ -11,7 +11,9 @@
 		float: left;
 		width: 1px;
 		height: 100%;
-		margin-left: 10%;
+		margin-left: -webkit-calc(10% - 1px);
+	    margin-left:    -moz-calc(10% - 1px);
+	    margin-left:	   	 calc(10% - 1px);
 		background: $color-outline;
 	}
 	

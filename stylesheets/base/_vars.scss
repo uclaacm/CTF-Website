@@ -1,10 +1,11 @@
 @import 'mixins/fontface';
 @include fontFace('AmCap','../assets/font/AMCAP_Eternal');
+@include fontFace('Sen', '../assets/font/sen-regular');
 
 // Colors //
 
-$color-primary		: #2fab9c;
-$color-secondary	: #000000;
+$color-primary		: #2f48ab;
+$color-secondary	: #e7dd45;
 $color-accent		: #000000;
 $color-outline		: #eeeeee;
 
@@ -17,6 +18,7 @@ $color-text-dark	: #000000;
 // Typography //
 
 $font-header			: 'AmCap', sans-serif;
+$font-body				: 'Sen', sans-serif;
 $typography-base-size	: 12px;
 $typography-header		: 250px;
 $typography-header-line : $typography-header - 80;
@@ -45,7 +47,7 @@ $menu-spacing-l	: 20px;
 // Body //
 
 $spacing-main   : 40px;
-
+$spacing-side   : 80px;
 
 // TextBox //
 
