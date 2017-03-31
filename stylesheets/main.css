@@ -387,7 +387,7 @@ html, body {
     padding: 40px;
     border-left: 1px solid black; }
   #t-6 a:hover {
-    border: 1px solid black;
+    border-right: 1px solid black;
     border-left: 1px solid transparent; }
   #t-6 h2, #t-6 .resources {
     display: inline-block;
