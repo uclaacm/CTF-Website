@@ -35,10 +35,10 @@ var FlagsController = (function(){
 
 		var style 	= '';
 
-		//apply rotation
+			//apply rotation
 			style 	+= '-webkit-transform: rotate(' + this.rotation + 'deg); transform: rotate(' + this.rotation + 'deg);';
 
-		//apply position
+			//apply position
 			style	+= 'top: ' + this.coord.y + 'px; left: ' + this.coord.x + 'px;';
 
 		return '<img src="' + imgsrc + '" class="flag-point" style="' + style + '" />';
@@ -61,16 +61,16 @@ var FlagsController = (function(){
 
 	}
 
-	FlagsGroup.prototype.render = function(flag){
-		$(this.containerSelector).append(flag.toHTMLString());
-	}
-
 	FlagsGroup.prototype.renderAll = function(){
+
+		var html = '';
 
 		for(var i = 0; i < this.flags.length; i++){
 			var currentFlag = this.flags[i];
-			this.render(currentFlag);
+			html += currentFlag.toHTMLString();
 		}
+
+		$(this.containerSelector).html(html);
 
 	}
 
