@@ -20,13 +20,13 @@ $color-text-dark	: #000000;
 $font-header			: 'Product Sans', Arial, sans-serif;
 $font-body				: 'Sen', sans-serif;
 $typography-base-size	: 12px;
-$typography-header		: 250px;
+$typography-header		: 170px;
 $typography-header-line : $typography-header - 20;
 $typography-sub			: 15px;
 $sub-l-spacing			: $typography-sub * 1.5;
 
 
-$typography-header-mobile: $typography-header * 0.5;
+$typography-header-mobile: $typography-header * 0.3;
 $typography-header-line-mobile: $typography-header-line * 0.5;
 
 $typography-sub-mobile: $typography-sub * 0.5;

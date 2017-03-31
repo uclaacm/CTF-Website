@@ -10,7 +10,7 @@
   font-weight: normal; }
 html, body {
   font-size: 12px;
-  font-family: sans-serif;
+  font-family: "Sen", sans-serif;
   line-height: 1.5;
   letter-spacing: normal;
   font-weight: 400;
@@ -71,6 +71,7 @@ html, body {
   font-weight: normal; }
 .main-wrapper {
   display: inline-block;
+  overflow: hidden;
   width: 100%;
   height: 100%;
   transition: transform 0.3s ease; }
@@ -263,8 +264,8 @@ html, body {
     text-align: center; }
     .splash .title-text h1 {
       font-family: "Product Sans", Arial, sans-serif;
-      font-size: 250px;
-      line-height: 230px;
+      font-size: 170px;
+      line-height: 150px;
       color: #000000; }
     .splash .title-text h4 {
       font-size: 15px;
@@ -277,8 +278,8 @@ html, body {
 
 @media only screen and (max-width: 700px) {
   .title-text h1 {
-    font-size: 125px !important;
-    line-height: 115px !important; }
+    font-size: 51px !important;
+    line-height: 75px !important; }
   .title-text h4 {
     font-size: 7.5px !important;
     letter-spacing: 11.25px !important; } }
