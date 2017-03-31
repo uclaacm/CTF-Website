@@ -84,7 +84,7 @@
 
 #t-6{
 
-	top: 2300px;
+	top: 1900px;
 	left: 15%;
 	width: 80%;
 
@@ -128,10 +128,55 @@
 
 #t-7{
 
-	bottom: $spacing-side;
+	bottom: 200px;
 	text-align: center;
 	cursor: pointer;
 
+}
+
+@media only screen and (max-width: $bp-tablet){
+
+	.flags-large{
+		display: none;
+	}
+
+	.strong{
+		font-size: 40px !important;
+		line-height: 40px !important;
+	}
+
+	.textbox{
+		padding: $spacing-mobile-side;
+		width: 30%;
+	}
+
+	#t-2{
+		top: 800px;
+	}
+
+	#t-3, #t-4{
+		top: 1300px;
+	}
+
+	#t-5{
+		top: 1800px;
+	}
+
+	#t-6{
+		top: 1900px;
+
+		a{
+			padding: $spacing-mobile-side;
+		}
+
+		h3{
+			font-size: 18px;
+		}
+
+		.resources{
+			transform: translateY(500px);
+		}
+	}
 }
 
 @media only screen and (max-width:  $bp-mobile){
