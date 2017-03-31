@@ -24,12 +24,6 @@
 		line-height: 4rem;
 	}
 
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
-	transform: translateZ(0);
-
 }
 
 .textbox-flat{
@@ -53,6 +47,7 @@
 #t-2{
 	top: 1400px;
 	left: auto;
+	transform: none;
 	right: 10%;
 }
 
@@ -68,6 +63,7 @@
 
 #t-4{
 	top: 1800px;
+	transform: none;
 	left: 10%;
 }
 
@@ -127,6 +123,14 @@
 	    		transform: rotate(90deg);
 	    transform-origin: 0;
 	}
+
+}
+
+#t-7{
+
+	bottom: $spacing-side;
+	text-align: center;
+	cursor: pointer;
 
 }
 
