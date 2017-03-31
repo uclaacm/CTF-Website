@@ -4,7 +4,7 @@ if(window.innerWidth > 800){
 	var s = skrollr.init();
 }
 else{
-	default_flags = 20;
+	default_flags /= 1.5;
 }
 
 function generateRandomFlags(selector, numberFlags){

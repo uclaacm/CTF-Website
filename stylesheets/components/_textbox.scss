@@ -36,6 +36,7 @@
 	position: absolute;
 	z-index: 23;
 	pointer-events: none;
+	width: 40%;
 
 	h2{
 		font-size: 100px;
@@ -51,18 +52,38 @@
 
 #t-2{
 	top: 1400px;
-	left: 70%;
+	left: auto;
+	right: 10%;
 }
 
 #t-3{
 	top: 1600px;
 	text-align: right;
 	right: $spacing-side;
+
+	h2{
+		direction: rtl;
+	}
 }
 
 #t-4{
 	top: 1800px;
-	left: 20%;
+	left: 10%;
+}
+
+#t-5{
+	top: 1800px;
+	width: 100%;
+	text-align: center;
+
+	.sponsor-imgs{
+		margin-top: $spacing-main;
+	}
+
+	img{
+		padding: $spacing-main;
+		max-height: 60px;
+	}
 }
 
 @media only screen and (max-width:  $bp-mobile){
@@ -77,6 +98,14 @@
 		left: 0;
 		width: 100%;
 		padding: $spacing-mobile-side;
+	}
+
+	#t-5{
+		top: 2200px;
+
+		img{
+			max-width: 60%;
+		}
 	}
 
 	.strong{
