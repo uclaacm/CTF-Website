@@ -9,7 +9,7 @@
 .textbox{
 
 	position: absolute;
-	z-index: 140;
+	z-index: 116;
     left: 50%;
     -webkit-transform: translateX(-50%);
     		transform: translateX(-50%);
@@ -86,6 +86,50 @@
 	}
 }
 
+#t-6{
+
+	top: 2300px;
+	left: 15%;
+	width: 80%;
+
+	a{
+		pointer-events: auto;
+		display: inline-block;
+		cursor: pointer;
+		padding: $spacing-main;
+		border-left: 1px solid black;
+	}
+
+	a:hover{
+		border: 1px solid black;
+		border-left: 1px solid rgba(0,0,0,0);
+    	
+	}
+
+	h2, .resources{
+		display: inline-block;
+		font-size: left;
+		width: 50%;
+	}
+
+	.resources{
+		width: 30%;
+	}
+
+	.resource{
+		display: inline-block;
+	}
+
+	.subheading{
+	    position: absolute;
+	    left: 0;
+	    -webkit-transform: rotate(90deg);
+	    		transform: rotate(90deg);
+	    transform-origin: 0;
+	}
+
+}
+
 @media only screen and (max-width:  $bp-mobile){
 	#t-1{
 		left: 0;
@@ -105,6 +149,40 @@
 
 		img{
 			max-width: 60%;
+		}
+	}
+
+	#t-6{
+		top: 3000px;
+		width: 100%;
+		padding: $spacing-mobile-side;
+		left: 0;
+
+		a{
+			padding: 0;
+			padding-bottom: $spacing-main;
+			border: none;
+		}
+
+		a:hover{
+			border: none;
+		}
+
+		h2{
+			margin-bottom: $spacing-main;
+		}
+
+		h2, .resources{
+			width: 100%;
+		}
+
+		h3{
+			font-size: 2rem;
+		}
+
+		.subheading{
+			transform: none;
+    		position: relative;
 		}
 	}
 
