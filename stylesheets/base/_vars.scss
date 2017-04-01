@@ -20,13 +20,13 @@ $color-text-dark	: #000000;
 $font-header			: 'Product Sans', Arial, sans-serif;
 $font-body				: 'Sen', sans-serif;
 $typography-base-size	: 12px;
-$typography-header		: 250px;
+$typography-header		: 170px;
 $typography-header-line : $typography-header - 20;
 $typography-sub			: 15px;
 $sub-l-spacing			: $typography-sub * 1.5;
 
 
-$typography-header-mobile: $typography-header * 0.5;
+$typography-header-mobile: $typography-header * 0.3;
 $typography-header-line-mobile: $typography-header-line * 0.5;
 
 $typography-sub-mobile: $typography-sub * 0.5;
@@ -35,7 +35,8 @@ $sub-l-spacing-mobile: $sub-l-spacing * 0.5;
 
 // Breakpoints //
 
-$bp-mobile		: 700px;
+$bp-tablet		: 1000px;
+$bp-mobile		: 850px;
 
 
 // Header //
@@ -61,5 +62,5 @@ $flag-spacing 	: 20px;
 
 // TextBox //
 
-$textbox-width	: 300px;
+$textbox-width	: 350px;
 $textbox-shadow : 0 0 20px 3px rgba(0,0,0,0.1);

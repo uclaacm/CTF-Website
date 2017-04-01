@@ -1,0 +1,29 @@
+@import "base/vars";
+@import "flags";
+
+.flags-large{
+
+	img{
+		position: absolute;
+		z-index: 12;
+		top: 100%;
+		width: 150px;
+
+		-webkit-transform: translateZ(0);
+		-moz-transform: translateZ(0);
+		-ms-transform: translateZ(0);
+		-o-transform: translateZ(0);
+		transform: translateZ(0);
+	}
+
+}
+
+.flags-small{
+
+	position: absolute;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+
+
+}

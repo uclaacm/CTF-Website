@@ -9,13 +9,13 @@
 
 	<link rel="stylesheet" type="text/css" href="stylesheets/main.css"/>
 
-	<link rel="shortcut icon" type="image/x-icon" href="" />
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/CTFlogo.png" />
 	<link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <div class="sidebar">
 	<div id="close"><i class="fa fa-times" aria-hidden="true"></i></div>
-	<a href=""><h4>Apply</h4></a><br>
+	<a href="https://docs.google.com/a/g.ucla.edu/forms/d/e/1FAIpQLSfbzO4BQ6cM29z3NS72B14n10lMnro7n6r91r4dDX0dZDipYA/viewform" target="_blank"><h4>Apply</h4></a><br>
 	<a href=""><h4>Sponsor us</h4></a><br>
 	<a href=""><h4>Schedule</h4></a><br>
 </div>
@@ -36,15 +36,23 @@
 		<div class="flags-inner">
 		</div>
 	</div>
+	<div class="buttons-small">
+		<a href="https://docs.google.com/a/g.ucla.edu/forms/d/e/1FAIpQLSfbzO4BQ6cM29z3NS72B14n10lMnro7n6r91r4dDX0dZDipYA/viewform" target="_blank">APPLY</a>
+		<a href="">SPONSOR US</a>
+	</div>
 	<div class="menu menu-toggle-small">
 		<i class="fa fa-bars clickable-menu" aria-hidden="true"></i>
 	</div>
+	
 	<div class="header-container">
 		<div class="header">
-			<!--replace with logo img later-->
-			<div class="header-item-wrapper title">
-				<h3 class="title-text"><i class="fa fa-globe" aria-hidden="true"></i></h3>
-			</div>
+			<a href="https://docs.google.com/a/g.ucla.edu/forms/d/e/1FAIpQLSfbzO4BQ6cM29z3NS72B14n10lMnro7n6r91r4dDX0dZDipYA/viewform" target="_blank">
+				<div class="header-item-wrapper title">
+					<!--<h3 class="title-text"><i class="fa fa-globe" aria-hidden="true"></i></h3>-->
+					<img src="assets/img/CTFlogo.svg" height="30"/>
+					<h4 class="mobile-hidden">&nbspAPPLY</h4>
+				</div>
+			</a>
 
 			<div class="header-item-wrapper menu clickable-menu">
 				<i class="fa fa-bars clickable-menu" aria-hidden="true"></i>
@@ -61,9 +69,15 @@
 	</div>
 	<div class="splash">
 		<div id="splash-container"></div>
-		<div class="title-text">
-			<h1 data-0="transform: translateX(0%);" data-300="transform: translateX(300%);">CTF</h1>
-			<h4 data-0="transform: translateX(0%);" data-300="transform: translateX(-300%);">CAPTURE THE FLAG</h4>
+		<div class="title-text mobile-hidden">
+			<h1 data-0="transform: translateX(0%);" data-800="transform: translateX(-300%);">Capture</h1>
+			<h1 data-0="transform: translateX(0%);" data-1100="transform: translateX(300%);">The Flag</h1>
+			<h4 data-0="transform: translateX(0%);" data-1400="transform: translateX(-300%);">CALIFORNIA CTF</h4>
+			<br>
+		</div>
+		<div class="title-text screen-hidden">
+			<h1>Capture The Flag</h1>
+			<h4>CAPTURE THE FLAG</h4>
 			<br>
 		</div>
 	</div>
@@ -73,44 +87,134 @@
 
 		<div class="flags-large mobile-hidden">
 			<img src="assets/img/flag-yellow.png"
-				data-200="left: 60%; top: 1100px; transform: rotate(60deg)"
+				data-200="left: 20%; top: 1100px; transform: rotate(60deg)"
 				data-800="top: 400px; transform: rotate(-100deg)"/>
 			<img src="assets/img/flag-red.png"
-				data-900="left: 30%; top: 1700px; transform: rotate(-40deg)"
-				data-1400="top: 600px; transform: rotate(180deg)"/>
+				data-900="left: 40%; top: 1700px; transform: rotate(-40deg)"
+				data-1400="top: 500px; transform: rotate(180deg)"/>
+			<img src="assets/img/flag-yellow.png"
+				data-1200="left: 70%; top: 2000px; transform: rotate(60deg)"
+				data-1600="top: 1400px; transform: rotate(-170deg)"/>
+			<img src="assets/img/flag-red.png"
+				data-2000="left: 30%; top: 2900px; transform: rotate(-120deg)"
+				data-2400="top: 2300px; transform: rotate(40deg)"/>
+		</div>
+		<div class="flags-small">
 		</div>
 
 		<div id="t-1" class="textbox-flat">
 			<h2 class="strong">What is CTF?</h2>
 			<p>
-			Capture the Flag is a hackathon, but one in which you’re actually hacking!<br>Participants will be competing against other students from colleges around California.<br>CTF is open to all skill levels.
+			Capture the Flag is a security hackathon - which means you’ll actually be hacking! Participants compete against other students from colleges around California. The event is open to college students of all skill levels.
 			</p>
+			<div class="screen-hidden">
+				<br><hr><br>
+				<h4><i class="fa fa-map-marker" aria-hidden="true"></i>&nbspLOCATIONS</h4>
+				<p><strong>UCLA</strong><br>TBD</p>
+				<p><strong>Stanford</strong><br>TBD</p>
+				<br>
+				<h4><i class="fa fa-clock-o" aria-hidden="true"></i>&nbspDATE</h4>
+				<p>May 21st, 2017</p>
+			</div>
 		</div>
 
 		<div id="t-2" class="textbox mobile-hidden"
-			data-400="top: 1200px"
-			data-1200="top: 600px">
-			<h4>LOCATIONS</h4>
-			<p><strong><i class="fa fa-map-marker" aria-hidden="true"></i> UCLA</strong><br>Somewhere Plaza Hill</p>
-			<p><strong><i class="fa fa-map-marker" aria-hidden="true"></i> Stanford</strong><br>Some building place</p>
+			data-400="top: 850px"
+			data-1200="top: 650px">
+			<h4><i class="fa fa-map-marker" aria-hidden="true"></i>&nbspLOCATIONS</h4><br>
+			<p><strong>UCLA | </strong>TBD</p><br>
+			<p><strong>Stanford | </strong>TBD</p>
+			<br><br>
+			<h4><i class="fa fa-clock-o" aria-hidden="true"></i>&nbspDATE</h4>
+			<p>May 21st, 2017</p>
 		</div>
 
-		<div id="t-3" class="textbox-flat" data-400="top: 1400px; ">
+		<div id="t-3" class="textbox-flat" data-400="top: 1300px; ">
 			<h2 class="strong">Challenge<br>Structure</h2>
-			<p>Challenge questions are located on a world map.</p>
-			<p>Each question will be associated with a country.</p>
-			<p>The more difficult a question, the more points your team is awarded<br> for "capturing" that particular country's flag.</p>
+			<p>Challenge questions are located on a world map. Each question will be associated with a country. The more difficult a question, the more points your team is awarded for "capturing" that particular country's flag.</p>
+			<div class="screen-hidden">
+				<br><hr><br>
+				<h4><i class="fa fa-user" aria-hidden="true"></i>&nbspTEAMS</h4>
+				<p>Maximum 4 people each</p>
+				<br>
+				<h4><i class="fa fa-lock" aria-hidden="true"></i>&nbspTOPICS INCLUDE</h4>
+				<p>DoS attacks</p>
+				<p>SQL injections</p>
+				<p>Password cracking</p>
+			</div>
 		</div>
 
 		<div id="t-4" class="textbox mobile-hidden"
-			data-700="top: 1800px"
-			data-1200="top: 900px">
-			<h4>DATE & TIME</h4>
-			<p><i class="fa fa-clock-o" aria-hidden="true"></i>&nbspSomeday xx:xx, 2017</p>
+			data-600="top: 1500px"
+			data-1500="top: 1100px">
+			<h4><i class="fa fa-user" aria-hidden="true"></i>&nbspTEAMS</h4>
+			<p>Maximum 4 people each</p>
+			<br>
+			<h4><i class="fa fa-lock" aria-hidden="true"></i>&nbspTOPICS INCLUDE</h4>
+			<p>DoS attacks</p>
+			<p>SQL injections</p>
+			<p>Password cracking</p>
 		</div>
+
+		<div id="t-5" class="textbox-flat">
+			<h2 class="strong">Our Sponsors</h2>
+			<div class="sponsor-imgs">
+				<img src="assets/img/google.png"/>
+				<img src="assets/img/microsoft.png"/>
+				<img src="assets/img/symantec.png"/>
+				<img src="assets/img/intel.png"/>
+			</div>
+		</div>
+
+		<div id="t-6" class="textbox-flat">
+			<h2 class="strong">Not Sure Where to Start? Try These.</h2>
+			<div class="resources" data-1700="transform: translateY(400px)" data-2800="transform: translateY(100px)">
+				<a href="https://www.hacksplaining.com/" target="_blank">
+					<div class="resource">
+						<h3>HACKSPLAINING</h3>
+						<h4>General hacking lessons & excercises</h4>
+					</div>
+				</a><br>
+				<a href="https://github.com/danielmiessler/SecLists" target="_blank">
+					<div class="resource">
+						<h3>SecLists</h3>
+						<h4>The security tester's companion - a collection of multiple types of lists used during security assessments</h4>
+					</div>
+				</a><br>
+				<a href="https://sqlbolt.com/" target="_blank">
+					<div class="resource">
+						<h3>SQLBolt</h3>
+						<h4>SQL Brushup</h4>
+					</div>
+				</a><br>
+				<a href="https://learnxinyminutes.com/docs/python3/" target="_blank">
+					<div class="resource">
+						<h3>Learn X In Y Minutes</h3>
+						<h4>Learning Python 3</h4>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<a href="https://docs.google.com/a/g.ucla.edu/forms/d/e/1FAIpQLSfbzO4BQ6cM29z3NS72B14n10lMnro7n6r91r4dDX0dZDipYA/viewform" target="_blank" class="mobile-hidden">
+			<div id="t-7" class="textbox">
+				<h3>APPLY NOW!</h3>
+			</div>
+		</a>
 
 	</div>
 </div>
+
+
+<!--
+TODO: Add beginner resources
+
+general hacking lessons & excercises: https://www.hacksplaining.com/
+https://github.com/danielmiessler/SecLists
+sql brushup resource: https://sqlbolt.com/
+python: https://learnxinyminutes.com/docs/python3/
+
+-->
 
 <!--dependencies-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
