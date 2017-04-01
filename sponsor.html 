@@ -37,35 +37,42 @@
 			</div>
 
 
-		<div class = "sponsor-whysponsor-wrapper">
-			<div class = "sponsor-rightside">
-				<div class = "sponsor-title-text">
-					<h2 id= "sponsor-title"> Why sponsor CTF?</h2>
+		<div class = "sponsor-section-wrapper">
+			
+				<div class = "sponsor-title-text-left">
+					<h2> WHY SPONSOR CTF?</h2>
 				</div>
 
-				<div class = "sponsor-paragraph">
+				<div class = "sponsor-paragraph-right">
 					<p> We bring together the most creative and brilliant students who are passionate about building secure infrastructure and applications.
 					They belong to cyber security clubs, white hat groups, and CTF
 					teams.</p>
 				</div>
-
-			</div>
+		
 		</div>
-		<div class = "sponsor-leftside">
-			<div class = "sponsor-title-text">
-				<h2 id= "sponsor-title"> Summary of Perks</h2>
-			</div>
 
-			<div class = "sponsor-paragraph">
-			<ul> 
-				<li>Contact information and resumes of participants on winning teams</li>
-				<li>Opening or closing speech</li>
-				<li>Company logo on main CTF page and our website: hackucla.com (11.5k views and 807 unique users in the first month)</li>
 
-			</ul>
-			</div>
 
+		<div class = "sponsor-section-wrapper">
+				
+				<div class = "sponsor-paragraph-left">
+					<ul> 
+					<li>Contact information and resumes of participants on winning teams</li>
+					<li>Opening or closing speech</li>
+					<li>Company logo on main CTF page and our website: hackucla.com (11.5k views and 807 unique users in the first month)</li>
+					</ul>
+
+				</div>
+
+				<div class = "sponsor-title-text-right">
+					<h2> SUMMARY OF PERKS</h2>
+				</div>
+
+				
+		
 		</div>
+
+
 
 
 	</div>

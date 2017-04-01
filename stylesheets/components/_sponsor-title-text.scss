@@ -15,7 +15,7 @@
 		height: 550px;
 		background-color: $color-primary;
 
-		.sponsor-title-sponsorUs{
+		.sponsor-title-sponsorUs {
 
 			padding-top: 220px;
 
@@ -34,35 +34,59 @@
 		line-height: 30px;
 				
 		}
-	.sponsor-leftside {
-		padding-right: 50px;
-		padding-left: 50px;
-		width: 40%;
-			
-	}
 
-	.sponsor-rightside {
-		padding-left: 50px;
-		padding-right: 50px;
-		margin-left: 50%;
-		width: 40%;
-			
-	}
-
-	.sponsor-whysponsor-wrapper{
+	.sponsor-section-wrapper{
 		width: 100%;
 		margin: 0px;
-		margin-top: 20px; 
+		margin-top: 100px;
+		margin-bottom: 60px; 
 		padding: 0px;
 		background: white;
+		column-count: 2;
+
+		.sponsor-title-text-left {
+
+			position: relative;
+			margin-left: 60px;
+			text-align: left;
+			padding-left: 30px;
+			
+		}
+
+		.sponsor-paragraph-right{
+
+			padding-top: 40px;
+			padding-right: 30px;
+		}
+
+		.sponsor-paragraph-left{
+
+			margin-left: 30px;
+			
+			padding: 30px;
+		}
+
+		.sponsor-title-text-right {
+
+			position: relative;
+			margin-right: 0px;
+			text-align: left;
+			padding: 30px;
+			
+		}
+
+		
+
 
 	}
+
+
 	h2{
-		margin-top: 30px;
+			margin-top: 30px;
 			font: $font-header;
 			color: $color-primary;
-			font-weight: 600px;
-			font-size: 48px;
+			font-weight: 800px;
+			font-size: 40px;
 
 	}
 	li {
