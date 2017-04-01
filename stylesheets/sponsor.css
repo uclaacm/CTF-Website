@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.main-content-container {
+  z-index: -2;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding-top: 70px;
+  padding-left: 0px;
+  padding-right: 0px; }
+  .main-content-container .sponsor-title-cover {
+    text-align: left;
+    width: 100%;
+    height: 550px;
+    background-color: #2f48ab; }
+    .main-content-container .sponsor-title-cover .sponsor-title-sponsorUs {
+      padding-top: 220px; }
+      .main-content-container .sponsor-title-cover .sponsor-title-sponsorUs h1 {
+        text-align: center;
+        font: "Product Sans", Arial, sans-serif;
+        color: white;
+        font-weight: 800px;
+        font-size: 85px; }
+  .main-content-container p {
+    color: black;
+    font-size: 20px;
+    line-height: 30px; }
+  .main-content-container .sponsor-leftside {
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 40%; }
+  .main-content-container .sponsor-rightside {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 50%;
+    width: 40%; }
+  .main-content-container .sponsor-whysponsor-wrapper {
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    background: white; }
+  .main-content-container h2 {
+    margin-top: 30px;
+    font: "Product Sans", Arial, sans-serif;
+    color: #2f48ab;
+    font-weight: 600px;
+    font-size: 48px; }
+  .main-content-container li {
+    color: black;
+    font-size: 20px;
+    line-height: 30px; }
+
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.sponsor-header {
+  background-color: white;
+  height: 70px;
+  width: 100%; }
+
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.header-container {
+  position: absolute;
+  z-index: 128;
+  width: 100%;
+  overflow: hidden;
+  top: 0px; }
+
+.header {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  background-color: #fbf9f9;
+  border-bottom: 1px solid #eeeeee; }
+  .header .header-item-wrapper {
+    position: absolute;
+    display: inline-block;
+    height: 100%; }
+    .header .header-item-wrapper:before {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      height: 100%; }
+    .header .header-item-wrapper > * {
+      display: inline-block;
+      vertical-align: middle; }
+  .header .header-item-wrapper.menu {
+    padding: 0 20px;
+    border-right: 1px solid #eeeeee;
+    cursor: pointer; }
+    .header .header-item-wrapper.menu .menu-text {
+      margin-left: 10px; }
+  .header .header-item-wrapper.title {
+    padding: 0 10px;
+    text-align: center;
+    width: 100%; }
+  .header .header-item-wrapper.link {
+    right: 0;
+    padding: 0 20px;
+    background: #2f48ab;
+    color: #fbf9f9;
+    cursor: pointer; }
+
+.menu-toggle-small, .buttons-small {
+  position: fixed;
+  z-index: 128;
+  left: 25px;
+  top: 25px;
+  cursor: pointer; }
+
+.buttons-small {
+  display: inline-block;
+  text-align: right;
+  top: 10px;
+  right: 10px;
+  cursor: default; }
+  .buttons-small a {
+    display: inline-block;
+    background: white;
+    padding: 10px;
+    border: 1px solid black; }
+
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.main-wrapper {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease; }
+
+.overlay {
+  position: fixed;
+  overflow: hidden;
+  z-index: 152;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  transition: background 0.3s ease; }
+
+.sidebar {
+  position: fixed;
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease; }
+  .sidebar #close {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -5px;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px; }
+  .sidebar h4:hover {
+    cursor: pointer;
+    text-decoration: underline; }
+
+.sidebar-enabled {
+  overflow: hidden; }
+  .sidebar-enabled .main-wrapper {
+    -webkit-transform: translateX(250px);
+    transform: translateX(250px); }
+  .sidebar-enabled .overlay {
+    pointer-events: initial;
+    background: rgba(0, 0, 0, 0.7); }
+  .sidebar-enabled .sidebar {
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0); }
+    .sidebar-enabled .sidebar a {
+      display: inline-block; }
+    .sidebar-enabled .sidebar h4 {
+      margin-bottom: 20px; }
+
+@media only screen and (max-width: 850px) {
+  .main-wrapper {
+    height: 50px; }
+
+  .sidebar-enabled .main-wrapper {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%); }
+  .sidebar-enabled .sidebar {
+    width: 100%; } }
+
+/*# sourceMappingURL=sponsor.css.map */

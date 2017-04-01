@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sponsor Us</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/sponsor.css"/>
+
+
+	<link rel="shortcut icon" type="image/x-icon" href="" />
+	<link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<div class="main-wrapper">
+	<div class="overlay"></div>
+	<div class="lines">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</div>
+	<div class = "header-container">
+		<div class = "header"> </div>
+	</div>
+
+	<div class = "main-content-container">
+
+		
+			<div class = "sponsor-title-cover">
+				<div class = "sponsor-title-sponsorUs"" >
+					<h1 > BE OUR SPONSOR</h1>
+				</div>
+			</div>
+
+
+		<div class = "sponsor-whysponsor-wrapper">
+			<div class = "sponsor-rightside">
+				<div class = "sponsor-title-text">
+					<h2 id= "sponsor-title"> Why sponsor CTF?</h2>
+				</div>
+
+				<div class = "sponsor-paragraph">
+					<p> We bring together the most creative and brilliant students who are passionate about building secure infrastructure and applications.
+					They belong to cyber security clubs, white hat groups, and CTF
+					teams.</p>
+				</div>
+
+			</div>
+		</div>
+		<div class = "sponsor-leftside">
+			<div class = "sponsor-title-text">
+				<h2 id= "sponsor-title"> Summary of Perks</h2>
+			</div>
+
+			<div class = "sponsor-paragraph">
+			<ul> 
+				<li>Contact information and resumes of participants on winning teams</li>
+				<li>Opening or closing speech</li>
+				<li>Company logo on main CTF page and our website: hackucla.com (11.5k views and 807 unique users in the first month)</li>
+
+			</ul>
+			</div>
+
+		</div>
+
+
+	</div>
+</div>
+</body>
+</html>

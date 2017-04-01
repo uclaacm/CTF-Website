@@ -1,0 +1,74 @@
+@import "base/vars";
+
+.main-content-container{
+	z-index: -2;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding-top: 70px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+	.sponsor-title-cover{
+		text-align: left;
+		width: 100%;
+		height: 550px;
+		background-color: $color-primary;
+
+		.sponsor-title-sponsorUs{
+
+			padding-top: 220px;
+
+			h1 {
+				text-align: center;
+				font: $font-header;
+				color: white;
+				font-weight: 800px;
+				font-size: 85px;
+			}
+		}
+	}
+	p{
+		color: black;
+		font-size: 20px;
+		line-height: 30px;
+				
+		}
+	.sponsor-leftside {
+		padding-right: 50px;
+		padding-left: 50px;
+		width: 40%;
+			
+	}
+
+	.sponsor-rightside {
+		padding-left: 50px;
+		padding-right: 50px;
+		margin-left: 50%;
+		width: 40%;
+			
+	}
+
+	.sponsor-whysponsor-wrapper{
+		width: 100%;
+		margin: 0px;
+		margin-top: 20px; 
+		padding: 0px;
+		background: white;
+
+	}
+	h2{
+		margin-top: 30px;
+			font: $font-header;
+			color: $color-primary;
+			font-weight: 600px;
+			font-size: 48px;
+
+	}
+	li {
+
+		color: black;
+		font-size: 20px;
+		line-height: 30px;
+	}
+}
