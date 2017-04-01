@@ -132,7 +132,8 @@ html, body {
   position: absolute;
   z-index: 128;
   width: 100%;
-  overflow: hidden; }
+  overflow: hidden;
+  top: 0px; }
 
 .header {
   position: relative;
