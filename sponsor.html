@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width" />
+
+	<title>CTF</title>
+
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css"/>
+
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/CTFlogo.png" />
+	<link href='https://fonts.googleapis.com/css?family=Product+Sans:400,400i,700,700i' rel='stylesheet' type='text/css'>
+</head>
+<body class="sponsor">
+<div class="sidebar">
+	<div id="close"><i class="fa fa-times" aria-hidden="true"></i></div>
+	<a href="https://docs.google.com/a/g.ucla.edu/forms/d/e/1FAIpQLSfbzO4BQ6cM29z3NS72B14n10lMnro7n6r91r4dDX0dZDipYA/viewform" target="_blank"><h4>Apply</h4></a><br>
+	<a href=""><h4>Sponsor us</h4></a><br>
+	<a href=""><h4>Schedule</h4></a><br>
+</div>
+<div class="main-wrapper">
+	<div class="overlay"></div>
+	<div class="lines">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+	</div>
+	<div class="flags">
+		<div class="flags-inner">
+		</div>
+	</div>
+	<div class="buttons-small">
+		<a href="assets/img/sponsorship.pdf" download="sponsorship-package">DOWNLOAD SPONSORSHIP PACKAGE</a>
+	</div>
+	<div class="menu menu-toggle-small">
+		<i class="fa fa-bars clickable-menu" aria-hidden="true"></i>
+	</div>
+	
+	<div class="header-container">
+		<div class="header">
+			<a href="https://docs.google.com/a/g.ucla.edu/forms/d/e/1FAIpQLSfbzO4BQ6cM29z3NS72B14n10lMnro7n6r91r4dDX0dZDipYA/viewform" target="_blank">
+				<div class="header-item-wrapper title">
+					<!--<h3 class="title-text"><i class="fa fa-globe" aria-hidden="true"></i></h3>-->
+					<img src="assets/img/CTFlogo.svg" height="30"/>
+					<h4 class="mobile-hidden">&nbspAPPLY</h4>
+				</div>
+			</a>
+
+			<div class="header-item-wrapper menu clickable-menu">
+				<i class="fa fa-bars clickable-menu" aria-hidden="true"></i>
+				<span class="menu-text mobile-hidden clickable-menu">MENU</span>
+			</div>
+
+			<a href="assets/img/sponsorship.pdf" download="sponsorship-package">
+				<div class="header-item-wrapper link">
+					<span class="menu-text">DOWNLOAD SPONSORSHIP PACKAGE</span>
+				</div>
+			</a>
+
+		</div>
+	</div>
+
+
+	<div class="main-scroll-body">
+
+		
+		<div class="flags-small">
+		</div>
+
+
+		<a class="download" href="assets/img/sponsorship.pdf" download="sponsorship-package">Download Sponsorship Package</a>
+
+
+
+		<embed src="assets/img/sponsorship.pdf"/>
+		<!--<iframe src="https://drive.google.com/open?id=0B4_IDNeYDMkeN3JEOFJ5WDZtSjg" frameborder="0"></iframe>-->
+
+
+	</div>
+</div>
+
+
+
+<!--dependencies-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://use.fontawesome.com/eb20c96418.js"></script>
+
+<!--load skrollr if not mobile-->
+<script>
+function load(script) {
+	document.write('<'+'script src="'+script+'" type="text/javascript"><' + '/script>');
+}
+
+if(window.innerWidth > 800){
+	load('https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js');
+}
+</script>
+
+<!--custom js-->
+<script src="js/flags-controller.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

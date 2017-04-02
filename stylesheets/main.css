@@ -544,5 +544,29 @@ html, body {
   width: 100%;
   height: 3500px;
   overflow-x: hidden; }
+  .main-scroll-body embed {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 12;
+    top: 70px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%); }
+
+.sponsor .download {
+  position: absolute;
+  z-index: 12;
+  top: 200px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: white;
+  padding: 40px;
+  border: 1px solid black;
+  width: auto; }
+.sponsor .main-scroll-body {
+  height: 2000px;
+  overflow: hidden; }
 
 /*# sourceMappingURL=main.css.map */
