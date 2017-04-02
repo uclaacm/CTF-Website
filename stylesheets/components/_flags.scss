@@ -37,3 +37,11 @@
 	-webkit-transform: translateY(-20px) !important;
 			transform: translateY(-20px) !important;
 }
+
+@media only screen and (max-width: $bp-mobile){
+
+	.flag-point{
+		width: $flag-size-mobile;
+	}
+}
+

@@ -235,6 +235,9 @@ html, body {
   -webkit-transform: translateY(-20px) !important;
   transform: translateY(-20px) !important; }
 
+@media only screen and (max-width: 850px) {
+  .flag-point {
+    width: 10px; } }
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
@@ -522,6 +525,9 @@ html, body {
   -webkit-transform: translateY(-20px) !important;
   transform: translateY(-20px) !important; }
 
+@media only screen and (max-width: 850px) {
+  .flag-point {
+    width: 10px; } }
 .flags-large img {
   position: absolute;
   z-index: 12;
