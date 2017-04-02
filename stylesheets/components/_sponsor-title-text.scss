@@ -8,6 +8,8 @@
 	padding-top: 70px;
 	padding-left: 0px;
 	padding-right: 0px;
+	width: 100%;
+	height:100%;
 
 	.sponsor-title-cover{
 		text-align: left;
@@ -37,43 +39,57 @@
 
 	.sponsor-section-wrapper{
 		width: 100%;
-		margin: 0px;
-		margin-top: 100px;
-		margin-bottom: 60px; 
+		height:220px;
+		margin-top: 50px;
+		margin-bottom: 50px; 
 		padding: 0px;
 		background: white;
-		column-count: 2;
+	
+		
 
-		.sponsor-title-text-left {
+		.sponsor-content-left1 {
 
+			height:200px;
+			padding-top: 50px;
+			padding-left: 50px;
+			float: left;
+			left: 0px;
 			position: relative;
-			margin-left: 60px;
-			text-align: left;
-			padding-left: 30px;
+			text-align: left;			
+			width:40%;
 			
 		}
 
-		.sponsor-paragraph-right{
-
+		.sponsor-content-right1{
+			position: absolute;
+			left:50%;
 			padding-top: 40px;
-			padding-right: 30px;
+			width:40%;
 		}
 
-		.sponsor-paragraph-left{
+		/*SUMMARY OF PERKS*/
 
-			margin-left: 30px;
-			
-			padding: 30px;
-		}
+		.sponsor-content-left2 {
 
-		.sponsor-title-text-right {
-
+			height:200px;
+			padding-top: 50px;
+			padding-left: 80px;
+			float: left;
+			left: 0px;
 			position: relative;
-			margin-right: 0px;
-			text-align: left;
-			padding: 30px;
+			text-align: left;			
+			width:40%;
 			
 		}
+
+		.sponsor-content-right2{
+			position: absolute;
+			left:50%;
+			padding-top: 80px;
+			width:40%;
+
+		}
+
 
 		
 
@@ -82,11 +98,13 @@
 
 
 	h2{
-			margin-top: 30px;
+			margin-top: 20px;
 			font: $font-header;
 			color: $color-primary;
 			font-weight: 800px;
 			font-size: 40px;
+			text-align: center;
+
 
 	}
 	li {
@@ -95,4 +113,7 @@
 		font-size: 20px;
 		line-height: 30px;
 	}
+
+
+	
 }

@@ -21,7 +21,9 @@
   left: 0px;
   padding-top: 70px;
   padding-left: 0px;
-  padding-right: 0px; }
+  padding-right: 0px;
+  width: 100%;
+  height: 100%; }
   .main-content-container .sponsor-title-cover {
     text-align: left;
     width: 100%;
@@ -41,34 +43,47 @@
     line-height: 30px; }
   .main-content-container .sponsor-section-wrapper {
     width: 100%;
-    margin: 0px;
-    margin-top: 100px;
-    margin-bottom: 60px;
+    height: 220px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0px;
     background: white;
-    column-count: 2; }
-    .main-content-container .sponsor-section-wrapper .sponsor-title-text-left {
+    /*SUMMARY OF PERKS*/ }
+    .main-content-container .sponsor-section-wrapper .sponsor-content-left1 {
+      height: 200px;
+      padding-top: 50px;
+      padding-left: 50px;
+      float: left;
+      left: 0px;
       position: relative;
-      margin-left: 60px;
       text-align: left;
-      padding-left: 30px; }
-    .main-content-container .sponsor-section-wrapper .sponsor-paragraph-right {
+      width: 40%; }
+    .main-content-container .sponsor-section-wrapper .sponsor-content-right1 {
+      position: absolute;
+      left: 50%;
       padding-top: 40px;
-      padding-right: 30px; }
-    .main-content-container .sponsor-section-wrapper .sponsor-paragraph-left {
-      margin-left: 30px;
-      padding: 30px; }
-    .main-content-container .sponsor-section-wrapper .sponsor-title-text-right {
+      width: 40%; }
+    .main-content-container .sponsor-section-wrapper .sponsor-content-left2 {
+      height: 200px;
+      padding-top: 50px;
+      padding-left: 80px;
+      float: left;
+      left: 0px;
       position: relative;
-      margin-right: 0px;
       text-align: left;
-      padding: 30px; }
+      width: 40%; }
+    .main-content-container .sponsor-section-wrapper .sponsor-content-right2 {
+      position: absolute;
+      left: 50%;
+      padding-top: 80px;
+      width: 40%; }
   .main-content-container h2 {
-    margin-top: 30px;
+    margin-top: 20px;
     font: "Product Sans", Arial, sans-serif;
     color: #2f48ab;
     font-weight: 800px;
-    font-size: 40px; }
+    font-size: 40px;
+    text-align: center; }
   .main-content-container li {
     color: black;
     font-size: 20px;

@@ -39,11 +39,11 @@
 
 		<div class = "sponsor-section-wrapper">
 			
-				<div class = "sponsor-title-text-left">
+				<div class = "sponsor-content-left1">
 					<h2> WHY SPONSOR CTF?</h2>
 				</div>
 
-				<div class = "sponsor-paragraph-right">
+				<div class = "sponsor-content-right1">
 					<p> We bring together the most creative and brilliant students who are passionate about building secure infrastructure and applications.
 					They belong to cyber security clubs, white hat groups, and CTF
 					teams.</p>
@@ -55,7 +55,7 @@
 
 		<div class = "sponsor-section-wrapper">
 				
-				<div class = "sponsor-paragraph-left">
+				<div class = "sponsor-content-left2">
 					<ul> 
 					<li>Contact information and resumes of participants on winning teams</li>
 					<li>Opening or closing speech</li>
@@ -64,14 +64,31 @@
 
 				</div>
 
-				<div class = "sponsor-title-text-right">
+				<div class = "sponsor-content-right2">
 					<h2> SUMMARY OF PERKS</h2>
 				</div>
 
-				
-		
 		</div>
 
+		<div class = "sponsor-option-wrapper">
+
+			<div class = "sponsor-option-title-wrapper">
+				<h2></h2>
+			</div>
+
+			<div class = "sponsor-option-item-wrapper">
+				<div class = "sponsor-option-speech">
+					<h4 id="opening-speech"></h4>
+				</div>
+
+				<div class = "sponsor-option-speech">
+				</div>
+
+				<div class = "sponsor-option-other">
+				</div>
+			</div>
+
+		</div> 
 
 
 
