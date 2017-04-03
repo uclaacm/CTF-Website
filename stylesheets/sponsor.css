@@ -181,7 +181,7 @@
   overflow: hidden;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
-  transition: transform 0.3s ease; }
+  transition: transform 0.25s ease; }
   .sidebar #close {
     display: inline-block;
     position: absolute;
@@ -193,6 +193,11 @@
   .sidebar h4:hover {
     cursor: pointer;
     text-decoration: underline; }
+  .sidebar #home-link {
+    display: block;
+    margin-bottom: 40px; }
+    .sidebar #home-link img {
+      width: 30px; }
 
 .sidebar-enabled {
   overflow: hidden; }
