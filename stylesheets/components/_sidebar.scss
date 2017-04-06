@@ -26,7 +26,7 @@
 	-webkit-transform: translateX(-100%);
 			transform: translateX(-100%);
 
-	transition: transform 0.3s ease;
+	transition: transform 0.25s ease;
 
 	#close{
 		display: inline-block;
@@ -41,6 +41,14 @@
 	h4:hover{
 		cursor: pointer;
 		text-decoration: underline;
+	}
+
+	#home-link{
+		display: block;
+		margin-bottom: $spacing-main;
+		img {
+			width: $logo-w;
+		}
 	}
 }
 
