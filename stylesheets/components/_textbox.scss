@@ -88,6 +88,10 @@
 	left: 15%;
 	width: 80%;
 
+	h3 {
+		font-weight: bold;
+	}
+
 	a{
 		pointer-events: auto;
 		display: inline-block;
@@ -97,8 +101,8 @@
 	}
 
 	a:hover{
-		border-right: 1px solid black;
-		border-left: 1px solid rgba(0,0,0,0);
+		//border-right: 1px solid black;
+		//border-left: 5px solid black;
     	
 	}
 
@@ -202,6 +206,7 @@
 	}
 
 	#t-6{
+
 		top: 3000px;
 		width: 100%;
 		padding: $spacing-mobile-side;
@@ -223,6 +228,10 @@
 
 		h2, .resources{
 			width: 100%;
+		}
+
+		.resources {
+			transform: translateY(0px);
 		}
 
 		h3{

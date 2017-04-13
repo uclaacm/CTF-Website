@@ -5,7 +5,7 @@
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 html, body {
@@ -66,7 +66,7 @@ html, body {
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .main-wrapper {
@@ -92,7 +92,7 @@ html, body {
   overflow: hidden;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
-  transition: transform 0.25s ease; }
+  transition: transform 0.3s ease; }
   .sidebar #close {
     display: inline-block;
     position: absolute;
@@ -141,7 +141,7 @@ html, body {
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .header-container {
@@ -208,7 +208,7 @@ html, body {
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .flags {
@@ -246,7 +246,7 @@ html, body {
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .splash {
@@ -296,7 +296,7 @@ html, body {
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .lines {
@@ -317,13 +317,13 @@ html, body {
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .strong {
@@ -390,15 +390,14 @@ html, body {
   top: 1900px;
   left: 15%;
   width: 80%; }
+  #t-6 h3 {
+    font-weight: bold; }
   #t-6 a {
     pointer-events: auto;
     display: inline-block;
     cursor: pointer;
     padding: 40px;
     border-left: 1px solid black; }
-  #t-6 a:hover {
-    border-right: 1px solid black;
-    border-left: 1px solid transparent; }
   #t-6 h2, #t-6 .resources {
     display: inline-block;
     font-size: left;
@@ -480,6 +479,8 @@ html, body {
       margin-bottom: 40px; }
     #t-6 h2, #t-6 .resources {
       width: 100%; }
+    #t-6 .resources {
+      transform: translateY(0px); }
     #t-6 h3 {
       font-size: 2rem; }
     #t-6 .subheading {
@@ -492,13 +493,13 @@ html, body {
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 @font-face {
   font-family: "Sen";
   src: url("../assets/font/sen-regular.eot");
-  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
   font-style: normal;
   font-weight: normal; }
 .flags {
