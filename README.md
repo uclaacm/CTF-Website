@@ -1,1 +1,1 @@
-# CTF-Website
+# CTF-Website`sass --watch $PWD/stylesheets`
