@@ -1,1 +1,1 @@
-# CTF-Website`sass --watch $PWD/stylesheets`
+# CTF-WebsiteCapture the Flag's new website, built by UCLA ACM Hack. CTF is a cybersecurity hackathon, and this website provides relevant info, resources, and links. ### Sass```shellsass --watch $PWD/stylesheets```
