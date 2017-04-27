@@ -581,4 +581,36 @@ html, body {
   height: 2000px;
   overflow: hidden; }
 
+@font-face {
+  font-family: "Sen";
+  src: url("../assets/font/sen-regular.eot");
+  src: url("../assets/font/sen-regular.eot?#iefix") format("embedded-opentype"), url("../assets/font/sen-regular.ttf") format("truetype"), url("../assets/font/sen-regular.svg#Sen") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+.schedule-wrapper {
+  margin: 0px;
+  width: 100vw;
+  padding: 8vw; }
+  .schedule-wrapper .title {
+    text-align: left; }
+
+.schedule {
+  padding-top: 30px;
+  position: relative;
+  width: 100%; }
+
+.schedule tr {
+  width: 100%;
+  font-size: 24px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 55px; }
+  .schedule tr td {
+    width: 50%;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 40px; }
+
 /*# sourceMappingURL=main.css.map */
